@@ -143,19 +143,21 @@ La plataforma de Cloud9 permite el uso de diversas herramientas de despliegue de
 
 **Google APP Engine**
 
-- Para empezar tenemos que crear una nueva aplicación 'APP Engine' en la [Plataforma de Google Cloud'](cloud.google.com/console).
+- Para empezar tenemos que crear una nueva aplicación 'APP Engine' en la [Plataforma de Google Cloud](cloud.google.com/console).
 
 - Luego tenemos que activar la opción 'Push-to-Deploy' en la opciones de configuración de la aplicación.
 
 - Seguidamente tenemos que configurar Cloud9 utilizando los siguiente comandos con nuestos credenciales:
 
-    echo "machine code.google.com login EMAIL password PASSWORD" >> ~/.netrc
-    git remote add appengine REPO
+    _echo "machine code.google.com login EMAIL password PASSWORD" >> ~/.netrc
+
+    git remote add appengine REPO_
 
 - Para finalmente realizar un _commit_ y un _push_:
 
-    git commit -a -m "First commit"
-    git push appengine master
+    _git commit -a -m "First commit"
+
+    git push appengine master_
 
 
 ##Joomla en Cloud9
