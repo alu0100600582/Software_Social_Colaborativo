@@ -36,10 +36,13 @@ En conclusión, la Web 2.0 nos permite realizar trabajo colaborativo entre vario
 
 En esta sección vamos a ver una introducción a diversas funcionalidades de la herramienta Cloud9
 
-### Crear un Espacio de Trabajo (Workspace)
+### [Crear un Espacio de Trabajo (Workspace)](https://www.youtube.com/watch?v=4Qqt1cvjsOc)
 
 En primer lugar para empezar a trabajar en Cloud9 tenemos que crear un Workspace, para ello simplemente vamos a la sección "Create a new workspace" del inicio y ahí configuraremos nuestro Espacio de trabajo.
 
 ![Alt text](https://github.com/alu0100600582/Software_Social_Colaborativo/blob/master/images/CreateWorkspaces.png)
 
 En esta sección podremos darle nombre y descripción a nuestro proyecto, configurar la privacidad, clonar otro proyecto y establecer la plantilla que queremos para nuestro proyecto.
+
+![Alt text](https://github.com/alu0100600582/Software_Social_Colaborativo/blob/master/images/CreateWorkspaces2.png)
+![Alt text](https://github.com/alu0100600582/Software_Social_Colaborativo/blob/master/images/CreateWorkspaces3.png)
