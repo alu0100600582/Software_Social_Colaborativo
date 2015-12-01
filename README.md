@@ -128,11 +128,13 @@ Para ejecutar el código de nuestra aplicación primero tenemos que abrir con Cl
 
 Desde el menú 'Run Panel' tenemos muchas más opciones que simplemente en el botón de 'Run'. Desde este Panel podemos crear y guardar diferentes escenarios para la ejecución de nuestro progama.
 
+### [Debugging](https://www.youtube.com/watch?v=Fg0jJb0n0W4)
+
+El uso del depurador en Cloud9 es muy fácil, al igual que la ejecución, el depurador posee un botón cuando ejecutamos nuestro código que nos permite activar el depurador durante la ejecución de este.
+
 ![Alt text](https://github.com/alu0100600582/Software_Social_Colaborativo/blob/master/images/run.png)
 
-### Debugging
-
-
+Cloud9 permite que se realicen cambios en el código mientra se está depurando y ver los cambios instantáneamente para mostrar las diferencias.
 
 
 ##Despliegue
