@@ -56,13 +56,13 @@ Cloud9 nos permite ejecutar nuestra aplicación a través de su menú o si lo pr
 La plataforma de Cloud9 nos ofrece la posibilidad de crear nuestra porpia Base de Datos. Como introducción vamos a empezar creando una en MySQL de la siguiente forma:
 
 Desde la Terminal ejecutamos los siguientes comandos para instalar MySQL:
-
-$ mysql-ctl install
+**_
+$ mysql-ctl install _**
 
 Esto nos generará una Base de Datos con unos credenciales por defecto que se mostrarán en la Terminal.
 Luego de esto ya podremos conectarnos a dicha BBDD y empezar a trabajar con ella a través de comando:
-
-$ mysql-ctl cli  
+**_
+$ mysql-ctl cli  _**
 
 ![Alt text](https://github.com/alu0100600582/Software_Social_Colaborativo/blob/master/images/mysql.png)
 
@@ -89,24 +89,27 @@ Si en cambio solo queremos que los usuarios prueben o visualicen nuestra aplicac
 En Cloud9 los Espacios de Trabajo poseen muchísimas funcionalidades que nos permiten trabajar libremente con ellos y realizar cualquier tarea que necesitemos.
 Entre las funcionalidades más importantes que disponemos podríamos destacar las siguientes:
 
-- Reseteo de Workspaces: Podemos resetear nuestro proyecto en cualquier momento como en cualquier otro servidor.
+- **Reseteo de Workspaces**: Podemos resetear nuestro proyecto en cualquier momento como en cualquier otro servidor.
 
-- Sensitive Data en Workspaces públicos: Uno de los problemas que nos podría surjir al publicar nuestro Workspace puede ser el de la seguridad (Contraseñas, credenciales, API tokens,etc.)
+- **Sensitive Data en Workspaces públicos**: Uno de los problemas que nos podría surjir al publicar nuestro Workspace puede ser el de la seguridad (Contraseñas, credenciales, API tokens,etc.)
 Para solucionar esto simplemente tenemos que crearnos un directorio en nuestro home en el cuál almacenaremos los datos que no queremos que sean públicos(Sensitive Data).
 Lo haríamos de la siguiente manera a través de la Terminal:
 
-cd ~/
-mkdir sensitive_data
-cd sensitive_data
-echo 'var config = { "db_username": "cloud9", "db_password": "password1234" }; module.exports = config;' > config.js
+**_ cd ~/
+    mkdir sensitive_data
+    cd sensitive_data
+    echo 'var config = { "db_username": "cloud9", "db_password": "password1234" }; module.exports = config;' > config.js _**
 
 En este caso estamos almacenando la información que queremos manterner privada en la variable 'config'.
 Después de haber creado este fichero, nosotros somos totalemente libres de acceder a esta información pero no las otras personas que accedan a nuestro Workspace.
 
-- Creación de Workspaces a través de Github y Bitbucket: Cloud9 nos permite crear Workspaces importando repositorios directamente de Github y Bitbucket. Para ello simplemente tenemos que conectar nuestra cuenta de Github o Bitbucket a la cuenta de Cloud9 y luego desde la sección 'Repositories' clonamos el repositorio que deseemos. Una vez clonado podremos realizar normalmente las operaciones de Git.
+- **Creación de Workspaces a través de Github y Bitbucket**: Cloud9 nos permite crear Workspaces importando repositorios directamente de Github y Bitbucket. Para ello simplemente tenemos que conectar nuestra cuenta de Github o Bitbucket a la cuenta de Cloud9 y luego desde la sección 'Repositories' clonamos el repositorio que deseemos. Una vez clonado podremos realizar normalmente las operaciones de Git.
 
 ![Alt text](https://github.com/alu0100600582/Software_Social_Colaborativo/blob/master/images/repos.png)
 
 Como ya vimos en la parte de Compartir un Workspace, Cloud9 permite la colaboración en ramas separadas de Git.
 
-- Creación de SSH Workspace: 
+- **Creación de SSH Workspace**: Esta es una de las funcionalidades más útiles que posee Cloud9. Nos permite crear Workspaces SSH a los cuales podemos acceder y trabajar de forma remota a nuestros proyectos.
+Para crear este tipo de repositorios simplemente tenemos que marcar la opción 'Remote SSH Workspace' en el menú de creación de Workspace que vimos al inicio y rellenar los campos que nos aparecen.
+
+![Alt text](https://github.com/alu0100600582/Software_Social_Colaborativo/blob/master/images/ssh.png)
