@@ -56,13 +56,13 @@ Cloud9 nos permite ejecutar nuestra aplicación a través de su menú o si lo pr
 La plataforma de Cloud9 nos ofrece la posibilidad de crear nuestra porpia Base de Datos. Como introducción vamos a empezar creando una en MySQL de la siguiente forma:
 
 Desde la Terminal ejecutamos los siguientes comandos para instalar MySQL:
-**_
-$ mysql-ctl install _**
+
+**$ mysql-ctl install**
 
 Esto nos generará una Base de Datos con unos credenciales por defecto que se mostrarán en la Terminal.
 Luego de esto ya podremos conectarnos a dicha BBDD y empezar a trabajar con ella a través de comando:
-**_
-$ mysql-ctl cli  _**
+
+**$ mysql-ctl cli**
 
 ![Alt text](https://github.com/alu0100600582/Software_Social_Colaborativo/blob/master/images/mysql.png)
 
@@ -95,10 +95,13 @@ Entre las funcionalidades más importantes que disponemos podríamos destacar la
 Para solucionar esto simplemente tenemos que crearnos un directorio en nuestro home en el cuál almacenaremos los datos que no queremos que sean públicos(Sensitive Data).
 Lo haríamos de la siguiente manera a través de la Terminal:
 
-**_ cd ~/
-    mkdir sensitive_data
-    cd sensitive_data
-    echo 'var config = { "db_username": "cloud9", "db_password": "password1234" }; module.exports = config;' > config.js _**
+**cd ~/
+
+  mkdir sensitive_data
+
+  cd sensitive_data
+
+  echo 'var config = { "db_username": "cloud9", "db_password": "password1234" }; module.exports = config;' > config.js**
 
 En este caso estamos almacenando la información que queremos manterner privada en la variable 'config'.
 Después de haber creado este fichero, nosotros somos totalemente libres de acceder a esta información pero no las otras personas que accedan a nuestro Workspace.
