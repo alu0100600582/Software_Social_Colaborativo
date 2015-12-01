@@ -46,3 +46,20 @@ En esta sección podremos darle nombre y descripción a nuestro proyecto, config
 
 ![Alt text](https://github.com/alu0100600582/Software_Social_Colaborativo/blob/master/images/CreateWorkspaces2.png)
 ![Alt text](https://github.com/alu0100600582/Software_Social_Colaborativo/blob/master/images/CreateWorkspaces3.png)
+
+Una vez creado nuestro Workspace ya podremos empezar a trabajar con nuestra aplicación. Como hemos elegido la plantilla de NodeJS se nos ha generado un servido 'express' para empezar a trabajar con nuestra aplicación.
+
+Cloud9 nos permite ejecutar nuestra aplicación a través de su menú o si lo preferimos por medio de comandos de consola.
+
+![Alt text](https://github.com/alu0100600582/Software_Social_Colaborativo/blob/master/images/Inicializacion.png)
+
+La plataforma de Cloud9 nos ofrece la posibilidad de crear nuestra porpia Base de Datos. Como introducción vamos a empezar creando una en MySQL de la siguiente forma:
+
+Desde la Terminal ejecutamos los siguientes comandos para instalar MySQL:
+
+$ mysql-ctl install
+
+Esto nos generará una Base de Datos con unos credenciales por defecto que se mostrarán en la Terminal.
+Luego de esto ya podremos conectarnos a dicha BBDD a través de comando: $ mysql-ctl cli  y empezar a trabajar con ella.
+
+![Alt text](https://github.com/alu0100600582/Software_Social_Colaborativo/blob/master/images/mysql.png)
