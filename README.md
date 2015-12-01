@@ -32,7 +32,7 @@ En conclusión, la Web 2.0 nos permite realizar trabajo colaborativo entre vario
 #### Algunas Herramientas
 
 
-#Tutorial Cloud9
+# [Tutorial Cloud9](https://www.youtube.com/watch?v=hqzOwM8aXdI)
 
 En esta sección vamos a ver una introducción a diversas funcionalidades de la herramienta Cloud9
 
@@ -60,6 +60,25 @@ Desde la Terminal ejecutamos los siguientes comandos para instalar MySQL:
 $ mysql-ctl install
 
 Esto nos generará una Base de Datos con unos credenciales por defecto que se mostrarán en la Terminal.
-Luego de esto ya podremos conectarnos a dicha BBDD a través de comando: $ mysql-ctl cli  y empezar a trabajar con ella.
+Luego de esto ya podremos conectarnos a dicha BBDD y empezar a trabajar con ella a través de comando:
+
+$ mysql-ctl cli  
 
 ![Alt text](https://github.com/alu0100600582/Software_Social_Colaborativo/blob/master/images/mysql.png)
+
+### [Compartir un Workspace](https://www.youtube.com/watch?v=k4cC0UntnkI)
+
+Como buena herramienta de Sosftware Colaborativo, Cloud9 nos permite compartir nuestra aplicación con otros usuarios, tanto para un desarrollo conjunto como para simplemente realizar pruebas de desarrollo por usuarios testers. En esta sección vamos a mostrar como realizar cada una de estas opciones.
+
+Para compartir nuestro Entorno de Desarrollo completamente y que otros usuarios puedan desarrollar al mismo tiempo que nosotros podemos realizar uno de los siguientes puntos:
+
+  - Si queremos compartir nuestro proyecto con cualquier persona simplemente tenemos que hacer la URL de nuestro proyecto pública.
+
+  - Si solamente queremos invitar a ciertas personas tenemos que añadirlas en el campo 'Invite people'
+
+  - Y para administrar quién tiene acceso y con que permisos tenemos la sección 'Who has access'
+
+  ![Alt text](https://github.com/alu0100600582/Software_Social_Colaborativo/blob/master/images/compartir.png)
+
+
+Si en cambio solo queremos que los usuarios prueben o visualicen nuestra aplicación tenemos que poner pública la URL de Preview para que cualquiera pueda acceder o darle permisos de lectura a aquellos usuarios que nosotros deseemos.
