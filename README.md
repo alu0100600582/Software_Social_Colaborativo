@@ -95,13 +95,13 @@ Entre las funcionalidades más importantes que disponemos podríamos destacar la
 Para solucionar esto simplemente tenemos que crearnos un directorio en nuestro home en el cuál almacenaremos los datos que no queremos que sean públicos(Sensitive Data).
 Lo haríamos de la siguiente manera a través de la Terminal:
 
-**cd ~/
+  cd ~/
 
   mkdir sensitive_data
 
   cd sensitive_data
 
-  echo 'var config = { "db_username": "cloud9", "db_password": "password1234" }; module.exports = config;' > config.js**
+  echo 'var config = { "db_username": "cloud9", "db_password": "password1234" }; module.exports = config;' > config.js
 
 En este caso estamos almacenando la información que queremos manterner privada en la variable 'config'.
 Después de haber creado este fichero, nosotros somos totalemente libres de acceder a esta información pero no las otras personas que accedan a nuestro Workspace.
@@ -116,3 +116,36 @@ Como ya vimos en la parte de Compartir un Workspace, Cloud9 permite la colaborac
 Para crear este tipo de repositorios simplemente tenemos que marcar la opción 'Remote SSH Workspace' en el menú de creación de Workspace que vimos al inicio y rellenar los campos que nos aparecen.
 
 ![Alt text](https://github.com/alu0100600582/Software_Social_Colaborativo/blob/master/images/ssh.png)
+
+
+## Ejecución y Debugging de nuestro código
+
+Cloud9 IDE proporciona la habilidad de ejcutar y depurar nuestro código sin la necesidad de crear un Workspace. En esta guía vamos a mostrar como hacerlo.
+
+### Ejecución
+
+Para ejecutar el código de nuestra aplicación primero tenemos que abrir con Cloud9 el archivo que queramos. Luego de esto tenemos dos opciones para ejecutar nuestra aplicación, que puede ser desde el menú 'Run Panel' o directamente desde el botón 'Run' de la barra de herramientas.
+
+Desde el menú 'Run Panel' tenemos muchas más opciones que simplemente en el botón de 'Run'. Desde este Panel podemos crear y guardar diferentes escenarios para la ejecución de nuestro progama.
+
+![Alt text](https://github.com/alu0100600582/Software_Social_Colaborativo/blob/master/images/run.png)
+
+### Debugging
+
+
+
+
+##Despliegue
+
+
+
+##Joomla en Cloud9
+
+
+
+##[Desarrollo de Wordpress](https://www.youtube.com/watch?v=EdukckFNm2A)
+
+
+
+
+##¡Tu turno!
