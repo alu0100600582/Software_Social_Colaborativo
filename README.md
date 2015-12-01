@@ -141,7 +141,22 @@ Cloud9 permite que se realicen cambios en el código mientra se está depurando 
 
 La plataforma de Cloud9 permite el uso de diversas herramientas de despliegue de aplicaciones en nuestros Workspaces. Entre las más usadas se encuentra el ya conocido Heroku y su 'toolbelt', para no ser repetitivos vamos a ver otra de las herramientas que soporta como es 'Google APP Engine'.
 
-- **Google APP Engine**:
+**Google APP Engine**
+
+- Para empezar tenemos que crear una nueva aplicación 'APP Engine' en la [Plataforma de Google Cloud'](cloud.google.com/console).
+
+- Luego tenemos que activar la opción 'Push-to-Deploy' en la opciones de configuración de la aplicación.
+
+- Seguidamente tenemos que configurar Cloud9 utilizando los siguiente comandos con nuestos credenciales:
+
+    echo "machine code.google.com login EMAIL password PASSWORD" >> ~/.netrc
+    git remote add appengine REPO
+
+- Para finalmente realizar un _commit_ y un _push_:
+
+    git commit -a -m "First commit"
+    git push appengine master
+
 
 ##Joomla en Cloud9
 
