@@ -139,7 +139,9 @@ Cloud9 permite que se realicen cambios en el código mientra se está depurando 
 
 ##Despliegue
 
+La plataforma de Cloud9 permite el uso de diversas herramientas de despliegue de aplicaciones en nuestros Workspaces. Entre las más usadas se encuentra el ya conocido Heroku y su 'toolbelt', para no ser repetitivos vamos a ver otra de las herramientas que soporta como es 'Google APP Engine'.
 
+- **Google APP Engine**:
 
 ##Joomla en Cloud9
 
