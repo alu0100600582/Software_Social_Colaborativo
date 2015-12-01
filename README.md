@@ -82,3 +82,31 @@ Para compartir nuestro Entorno de Desarrollo completamente y que otros usuarios 
 
 
 Si en cambio solo queremos que los usuarios prueben o visualicen nuestra aplicación tenemos que poner pública la URL de Preview para que cualquiera pueda acceder o darle permisos de lectura a aquellos usuarios que nosotros deseemos.
+
+
+### Funcionalidades de un Workspace
+
+En Cloud9 los Espacios de Trabajo poseen muchísimas funcionalidades que nos permiten trabajar libremente con ellos y realizar cualquier tarea que necesitemos.
+Entre las funcionalidades más importantes que disponemos podríamos destacar las siguientes:
+
+- Reseteo de Workspaces: Podemos resetear nuestro proyecto en cualquier momento como en cualquier otro servidor.
+
+- Sensitive Data en Workspaces públicos: Uno de los problemas que nos podría surjir al publicar nuestro Workspace puede ser el de la seguridad (Contraseñas, credenciales, API tokens,etc.)
+Para solucionar esto simplemente tenemos que crearnos un directorio en nuestro home en el cuál almacenaremos los datos que no queremos que sean públicos(Sensitive Data).
+Lo haríamos de la siguiente manera a través de la Terminal:
+
+cd ~/
+mkdir sensitive_data
+cd sensitive_data
+echo 'var config = { "db_username": "cloud9", "db_password": "password1234" }; module.exports = config;' > config.js
+
+En este caso estamos almacenando la información que queremos manterner privada en la variable 'config'.
+Después de haber creado este fichero, nosotros somos totalemente libres de acceder a esta información pero no las otras personas que accedan a nuestro Workspace.
+
+- Creación de Workspaces a través de Github y Bitbucket: Cloud9 nos permite crear Workspaces importando repositorios directamente de Github y Bitbucket. Para ello simplemente tenemos que conectar nuestra cuenta de Github o Bitbucket a la cuenta de Cloud9 y luego desde la sección 'Repositories' clonamos el repositorio que deseemos. Una vez clonado podremos realizar normalmente las operaciones de Git.
+
+![Alt text](https://github.com/alu0100600582/Software_Social_Colaborativo/blob/master/images/repos.png)
+
+Como ya vimos en la parte de Compartir un Workspace, Cloud9 permite la colaboración en ramas separadas de Git.
+
+- Creación de SSH Workspace: 
