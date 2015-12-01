@@ -29,8 +29,15 @@ La Web 2.0 no es más que la evolución de la Web o Internet en el que los usuar
 En conclusión, la Web 2.0 nos permite realizar trabajo colaborativo entre varios usuarios o colaboradores.
 
 
-#### Algunas Herramientas de Sofware Social y Colaborativo
-
+#### Algunas Herramientas
 
 
 #Tutorial Cloud9
+
+En esta sección vamos a ver una introducción a diversas funcionalidades de la herramienta Cloud9
+
+### Crear un Espacio de Trabajo (Workspace)
+
+En primer lugar para empezar a trabajar en Cloud9 tenemos que crear un Workspace, para ello simplemente vamos a la sección "Create a new workspace" del inicio y ahí configuraremos nuestro Espacio de trabajo.
+
+En esta sección podremos darle nombre y descripción a nuestro proyecto, configurar la privacidad, clonar otro proyecto y establecer la plantilla que queremos para nuestro proyecto. 
