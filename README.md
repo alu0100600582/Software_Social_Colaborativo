@@ -149,15 +149,15 @@ La plataforma de Cloud9 permite el uso de diversas herramientas de despliegue de
 
 - Seguidamente tenemos que configurar Cloud9 utilizando los siguiente comandos con nuestos credenciales:
 
-    _echo "machine code.google.com login EMAIL password PASSWORD" >> ~/.netrc
+    echo "machine code.google.com login EMAIL password PASSWORD" >> ~/.netrc
 
-    git remote add appengine REPO_
+    git remote add appengine REPO
 
 - Para finalmente realizar un _commit_ y un _push_:
 
-    _git commit -a -m "First commit"
+    git commit -a -m "First commit"
 
-    git push appengine master_
+    git push appengine master
 
 
 ##Joomla en Cloud9
