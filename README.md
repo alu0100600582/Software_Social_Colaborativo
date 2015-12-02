@@ -162,6 +162,41 @@ La plataforma de Cloud9 permite el uso de diversas herramientas de despliegue de
 
 ##Joomla en Cloud9
 
+Joomla es un Sistema de Gestión de Contenidos o CMS que permite desarrollar sitios web dinámicos e interactivos. Permite crear, modificar o eliminar contenido de un sitio web de manera sencilla a través de un "panel de administración". Es un software de código abierto y está desarrollado en PHP.
+
+Este administrador de contenidos puede utilizarse en una computadora personal local (localhost), en una intranet o a través de Internet, y requiere para su funcionamiento una base de datos creada con un gestor de bases de datos (MySQL es lo más habitual), así como de un servidor HTTP Apache.
+
+La instalación de Joomla es bastante sencilla y vamos a ver como hacerlo en los siguientes puntos:
+
+1. Creamos un Workspace en Cloud9 de tipo 'PHP'
+
+2. Descargamos y extraemos Joomla desde la Terminal con los siguientes comandos:
+---
+wget http://joomlacode.org/gf/download/frsrelease/19665/160049/Joomla_3.3.3-Stable-Full_Package.zip
+
+unzip Joomla*.zip
+
+rm Joomla*.zip
+---
+
+La última versión de Joomla la encontraremos en su [página](https://www.joomla.org/).
+
+3. Luego tenemos que iniciar la Base de datos de MySQL uqe ya habíamos instalado anteriormente.
+---
+mysql-ctl start
+---
+
+![Alt text](https://github.com/alu0100600582/Software_Social_Colaborativo/blob/master/images/joomlamysql.png)
+
+4. Ahora porcedemos con la instalación de Joomla, para ello tenemos que abrir el archivo 'index.php' y ejecutarlo con el botón de 'Run' que tenemos en la barra de herramientas. Seguidamente debemos hacer click en la URL que nos aparecerá en el Panel de ejecución, este enlace nos llevará a la página de configuración de Joomla que configuraremos con los datos necesarios.
+
+![Alt text](https://github.com/alu0100600582/Software_Social_Colaborativo/blob/master/images/joomla.png)
+
+Luego tenemos la siguiente pestaña que es la de la configuración de la Base de Datos, en la cuál tenemos que tener en cuenta que el nombre del Host tiene que ser '0.0.0.0' en lugar de 'localhost', el resto lo rellenaremos como nosotros queramos.
+
+![Alt text](https://github.com/alu0100600582/Software_Social_Colaborativo/blob/master/images/cfgjoomla.png)
+
+5. Finalmente terminamos la configuración de instalación y ya podremos utilizar Joomla con todas sus utilidades desde nuestra plataforma de Cloud9.
 
 
 ##[Desarrollo de Wordpress](https://www.youtube.com/watch?v=EdukckFNm2A)
