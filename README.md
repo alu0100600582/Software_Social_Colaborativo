@@ -56,14 +56,14 @@ Cloud9 nos permite ejecutar nuestra aplicación a través de su menú o si lo pr
 La plataforma de Cloud9 nos ofrece la posibilidad de crear nuestra porpia Base de Datos. Como introducción vamos a empezar creando una en MySQL de la siguiente forma:
 
 Desde la Terminal ejecutamos los siguientes comandos para instalar MySQL:
-
+---
 **$ mysql-ctl install**
-
+---
 Esto nos generará una Base de Datos con unos credenciales por defecto que se mostrarán en la Terminal.
 Luego de esto ya podremos conectarnos a dicha BBDD y empezar a trabajar con ella a través de comando:
-
+---
 **$ mysql-ctl cli**
-
+---
 ![Alt text](https://github.com/alu0100600582/Software_Social_Colaborativo/blob/master/images/mysql.png)
 
 ### [Compartir un Workspace](https://www.youtube.com/watch?v=k4cC0UntnkI)
@@ -94,15 +94,15 @@ Entre las funcionalidades más importantes que disponemos podríamos destacar la
 - **Sensitive Data en Workspaces públicos**: Uno de los problemas que nos podría surjir al publicar nuestro Workspace puede ser el de la seguridad (Contraseñas, credenciales, API tokens,etc.)
 Para solucionar esto simplemente tenemos que crearnos un directorio en nuestro home en el cuál almacenaremos los datos que no queremos que sean públicos(Sensitive Data).
 Lo haríamos de la siguiente manera a través de la Terminal:
+---
+  **cd ~/**
 
-  cd ~/
+  **mkdir sensitive_data**
 
-  mkdir sensitive_data
+  **cd sensitive_data**
 
-  cd sensitive_data
-
-  echo 'var config = { "db_username": "cloud9", "db_password": "password1234" }; module.exports = config;' > config.js
-
+  **echo 'var config = { "db_username": "cloud9", "db_password": "password1234" }; module.exports = config;' > config.js**
+---
 En este caso estamos almacenando la información que queremos manterner privada en la variable 'config'.
 Después de haber creado este fichero, nosotros somos totalemente libres de acceder a esta información pero no las otras personas que accedan a nuestro Workspace.
 
@@ -148,17 +148,17 @@ La plataforma de Cloud9 permite el uso de diversas herramientas de despliegue de
 - Luego tenemos que activar la opción 'Push-to-Deploy' en la opciones de configuración de la aplicación.
 
 - Seguidamente tenemos que configurar Cloud9 utilizando los siguiente comandos con nuestos credenciales:
+---
+    **echo "machine code.google.com login EMAIL password PASSWORD" >> ~/.netrc**
 
-    echo "machine code.google.com login EMAIL password PASSWORD" >> ~/.netrc
-
-    git remote add appengine REPO
-
+    **git remote add appengine REPO**
+---
 - Para finalmente realizar un _commit_ y un _push_:
+---
+    **git commit -a -m "First commit"**
 
-    git commit -a -m "First commit"
-
-    git push appengine master
-
+    **git push appengine master**
+---
 
 ##Joomla en Cloud9
 
@@ -172,18 +172,18 @@ La instalación de Joomla es bastante sencilla y vamos a ver como hacerlo en los
 
 2. Descargamos y extraemos Joomla desde la Terminal con los siguientes comandos:
 ---
-wget http://joomlacode.org/gf/download/frsrelease/19665/160049/Joomla_3.3.3-Stable-Full_Package.zip
+**wget http://joomlacode.org/gf/download/frsrelease/19665/160049/Joomla_3.3.3-Stable-Full_Package.zip**
 
-unzip Joomla*.zip
+**unzip Joomla*.zip**
 
-rm Joomla*.zip
+**rm Joomla*.zip**
 ---
 
 La última versión de Joomla la encontraremos en su [página](https://www.joomla.org/).
 
 3. Luego tenemos que iniciar la Base de datos de MySQL uqe ya habíamos instalado anteriormente.
 ---
-mysql-ctl start
+**mysql-ctl start**
 ---
 
 ![Alt text](https://github.com/alu0100600582/Software_Social_Colaborativo/blob/master/images/joomlamysql.png)
@@ -199,9 +199,13 @@ Luego tenemos la siguiente pestaña que es la de la configuración de la Base de
 5. Finalmente terminamos la configuración de instalación y ya podremos utilizar Joomla con todas sus utilidades desde nuestra plataforma de Cloud9.
 
 
-##[Desarrollo de Wordpress](https://www.youtube.com/watch?v=EdukckFNm2A)
-
-
-
-
 ##¡Tu turno!
+
+### Desarrollo de Wordpress
+
+![Alt text](https://github.com/alu0100600582/Software_Social_Colaborativo/blob/master/images/wordpress.png)
+
+Otra de las útiles funcionalidades de Cloud9 es la posibilidad de crear y administrar una página de Wordpress desde un Workspace. Para ello hay que seguir unos sencillos pasos que se describen rápidamente en el siguiente [vídeo](https://www.youtube.com/watch?v=EdukckFNm2A). Si estás interesado te animo a que configures tu cuenta de Cloud9 y realices pruebas con esta u otras funcionalidades de las que hemos visto y otras muchas que podrás encontrar en la [página de documentación de Cloud9](https://docs.c9.io/docs)
+
+
+# ¡Gracias por tu atención!
