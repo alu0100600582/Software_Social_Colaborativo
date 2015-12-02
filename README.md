@@ -57,7 +57,7 @@ La plataforma de Cloud9 nos ofrece la posibilidad de crear nuestra porpia Base d
 
 Desde la Terminal ejecutamos los siguientes comandos para instalar MySQL:
 
-**$ mysql-ctl install**
+'$ mysql-ctl install'
 
 Esto nos generará una Base de Datos con unos credenciales por defecto que se mostrarán en la Terminal.
 Luego de esto ya podremos conectarnos a dicha BBDD y empezar a trabajar con ella a través de comando:
@@ -168,9 +168,9 @@ Este administrador de contenidos puede utilizarse en una computadora personal lo
 
 La instalación de Joomla es bastante sencilla y vamos a ver como hacerlo en los siguientes puntos:
 
-1. Creamos un Workspace en Cloud9 de tipo 'PHP'
+- Creamos un Workspace en Cloud9 de tipo 'PHP'
 
-2. Descargamos y extraemos Joomla desde la Terminal con los siguientes comandos:
+- Descargamos y extraemos Joomla desde la Terminal con los siguientes comandos:
 
 **wget http://joomlacode.org/gf/download/frsrelease/19665/160049/Joomla_3.3.3-Stable-Full_Package.zip**
 
@@ -181,14 +181,14 @@ La instalación de Joomla es bastante sencilla y vamos a ver como hacerlo en los
 
 La última versión de Joomla la encontraremos en su [página](https://www.joomla.org/).
 
-3. Luego tenemos que iniciar la Base de datos de MySQL uqe ya habíamos instalado anteriormente.
+- Luego tenemos que iniciar la Base de datos de MySQL uqe ya habíamos instalado anteriormente.
 
 **mysql-ctl start**
 
 
 ![Alt text](https://github.com/alu0100600582/Software_Social_Colaborativo/blob/master/images/joomlamysql.png)
 
-4. Ahora porcedemos con la instalación de Joomla, para ello tenemos que abrir el archivo 'index.php' y ejecutarlo con el botón de 'Run' que tenemos en la barra de herramientas. Seguidamente debemos hacer click en la URL que nos aparecerá en el Panel de ejecución, este enlace nos llevará a la página de configuración de Joomla que configuraremos con los datos necesarios.
+- Ahora porcedemos con la instalación de Joomla, para ello tenemos que abrir el archivo 'index.php' y ejecutarlo con el botón de 'Run' que tenemos en la barra de herramientas. Seguidamente debemos hacer click en la URL que nos aparecerá en el Panel de ejecución, este enlace nos llevará a la página de configuración de Joomla que configuraremos con los datos necesarios.
 
 ![Alt text](https://github.com/alu0100600582/Software_Social_Colaborativo/blob/master/images/joomla.png)
 
@@ -196,7 +196,7 @@ Luego tenemos la siguiente pestaña que es la de la configuración de la Base de
 
 ![Alt text](https://github.com/alu0100600582/Software_Social_Colaborativo/blob/master/images/cfgjoomla.png)
 
-5. Finalmente terminamos la configuración de instalación y ya podremos utilizar Joomla con todas sus utilidades desde nuestra plataforma de Cloud9.
+- Finalmente terminamos la configuración de instalación y ya podremos utilizar Joomla con todas sus utilidades desde nuestra plataforma de Cloud9.
 
 
 ##¡Tu turno!
