@@ -57,7 +57,9 @@ La plataforma de Cloud9 nos ofrece la posibilidad de crear nuestra porpia Base d
 
 Desde la Terminal ejecutamos los siguientes comandos para instalar MySQL:
 
-'$ mysql-ctl install'
+```
+$ mysql-ctl install
+```
 
 Esto nos generará una Base de Datos con unos credenciales por defecto que se mostrarán en la Terminal.
 Luego de esto ya podremos conectarnos a dicha BBDD y empezar a trabajar con ella a través de comando:
