@@ -146,7 +146,7 @@ La plataforma de Cloud9 permite el uso de diversas herramientas de despliegue de
 
 **Google APP Engine**
 
-- Para empezar tenemos que crear una nueva aplicación 'APP Engine' en la [Plataforma de Google Cloud](cloud.google.com/console).
+- Para empezar tenemos que crear una nueva aplicación 'APP Engine' en la Plataforma de Google Cloud: cloud.google.com/console
 
 - Luego tenemos que activar la opción 'Push-to-Deploy' en la opciones de configuración de la aplicación.
 
