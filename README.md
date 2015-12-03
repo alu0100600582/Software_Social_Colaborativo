@@ -9,7 +9,7 @@ El software social engloba a un conjunto de herramientas de comunicación que fa
 
 El término Web 2.0 comprende aquellos sitios web que facilitan el compartir información, la interoperabilidad, el diseño centrado en el usuario y la colaboración en la Web.
 Un sitio Web 2.0 permite a los usuarios interactuar y colaborar entre sí como creadores de contenido generado por usuarios en una comunidad virtual.  
-Es la evolución de las aplicaciones estáticas a dinámicas donde la colaboración del usuario es necesaria.  
+
 
 La Web 2.0 no es más que la evolución de la Web o Internet en el que los usuarios dejan de ser usuarios pasivos para convertirse en usuarios activos, que participan y contribuyen en el contenido de la red siendo capaces de dar soporte y formar parte de una sociedad que se informa, comunica y genera conocimiento.
 
@@ -20,10 +20,10 @@ En conclusión, la Web 2.0 nos permite realizar trabajo colaborativo entre vario
 
 Software colaborativo o Groupware se refiere al conjunto de programas informáticos que integran el trabajo en un sólo proyecto, con muchos usuarios concurrentes, que se encuentran en diversas estaciones de trabajo, conectadas a través de una red.
 
-En su función más básica, las organizaciones establecen equipos tanto para responder a problemas que hayan ocurrido como para prevenir que en primer lugar ocurran.
 El término groupware hace referencia a los métodos y herramientas de software que facilitan el trabajo en grupo, mejorando su rendimiento, y contribuyen a que personas que están localizadas en puntos geográficos diferentes puedan trabajar a la vez, ya sea directamente o de forma anónima, a través de las redes.
 
-La colaboración se está convirtiendo en un elemento cada vez más importante en la economía de hoy, el compartir información y conocimiento son componentes vitales de una verdadera relación de colaboración. El groupware busca apoyar el trabajo que se realiza por grupos y equipos, teniendo en cuenta los aspectos de la colaboración que son necesarios para cosechar el máximo de ventajas. Es una herramienta tecnológica muy útil en nuestros tiempos ya que podemos integrar nuestros conocimientos teóricos con la tecnología.
+La colaboración se está convirtiendo en un elemento cada vez más importante, el compartir información y conocimiento son componentes vitales de una verdadera relación de colaboración. El groupware busca apoyar el trabajo que se realiza por grupos y equipos, teniendo en cuenta los aspectos de la colaboración que son necesarios para cosechar el máximo de ventajas.
+Es una herramienta tecnológica muy útil en nuestros tiempos ya que podemos integrar nuestros conocimientos teóricos con la tecnología.
 
 El software colaborativo se puede dividir en tres categorías :
 - Herramientas de colaboración-comunicación.
