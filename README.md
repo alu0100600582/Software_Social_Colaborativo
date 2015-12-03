@@ -217,7 +217,9 @@ Luego tenemos la siguiente pestaña que es la de la configuración de la Base de
 
 ![Alt text](https://github.com/alu0100600582/Software_Social_Colaborativo/blob/master/images/wordpress.png)
 
-Otra de las útiles funcionalidades de Cloud9 es la posibilidad de crear y administrar una página de Wordpress desde un Workspace. Para ello hay que seguir unos sencillos pasos que se describen rápidamente en el siguiente [vídeo](https://www.youtube.com/watch?v=EdukckFNm2A). Si estás interesado te animo a que configures tu cuenta de Cloud9 y realices pruebas con esta u otras funcionalidades de las que hemos visto y otras muchas que podrás encontrar en la [página de documentación de Cloud9](https://docs.c9.io/docs)
+Otra de las útiles funcionalidades de Cloud9 es la posibilidad de crear y administrar una página de Wordpress desde un Workspace. Para ello hay que seguir unos sencillos pasos que se describen rápidamente en el siguiente [vídeo](https://www.youtube.com/watch?v=EdukckFNm2A).
+
+Si estás interesado te animo a que configures tu cuenta de Cloud9 y realices pruebas con esta u otras funcionalidades de las que hemos visto y otras muchas que podrás encontrar en la [página de documentación de Cloud9](https://docs.c9.io/docs)
 
 
 # ¡Gracias por tu atención!
