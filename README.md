@@ -123,7 +123,7 @@ Para crear este tipo de repositorios simplemente tenemos que marcar la opción '
 
 ## Ejecución y Debugging de nuestro código
 
-Cloud9 IDE proporciona la habilidad de ejcutar y depurar nuestro código sin la necesidad de crear un Workspace. En esta guía vamos a mostrar como hacerlo.
+Cloud9 IDE proporciona la habilidad de ejecutar y depurar nuestro código sin la necesidad de crear un Workspace. En esta guía vamos a mostrar como hacerlo.
 
 ### Ejecución
 
